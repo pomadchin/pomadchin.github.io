@@ -28,11 +28,7 @@
 </div><!-- /.entry-header -->
 
 <div id="main" role="main">
-  {% if content contains '<!--more-->' %}
-    {{ content | split:'<!--more-->' | first }}
-  {% else %}
-    {{ content }}
-  {% endif %}
+  {{ excerpt }}
 </div><!-- /#main -->
 
 <div class="footer-wrapper">
