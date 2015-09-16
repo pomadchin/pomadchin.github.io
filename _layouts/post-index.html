@@ -28,10 +28,10 @@
 </div><!-- /.entry-header -->
 
 <div id="main" role="main">
-  {% if post.content contains '<!--more-->' %}
-    {{ post.content | split:'<!--more-->' | first }}
+  {% if content contains '<!--more-->' %}
+    {{ content | split:'<!--more-->' | first }}
   {% else %}
-    {{ post.content }}
+    {{ content }}
   {% endif %}
 </div><!-- /#main -->
 
