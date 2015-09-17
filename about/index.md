@@ -3,10 +3,9 @@ layout: page
 title: About me
 image:
   feature: abstract-5.jpg
-  -- credit: dargadgetz
-  -- creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
+  credit: daunnc
 comments: false
-modified: 2015-01-20
+modified: 2015-09-16
 ---
 
-To be filled...
+And [OpenWeatherMap](openweathermap.org) software developer. Not dealing with raster data rendering using Scala and Apache Spark. Scala lang fan, interested in a type level programming and big data processing.
