@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Init Post
-description: "Just an init post of a boring typed lambda geospatial blog/"
-modified: 2015-09-15
-tags: [init post boring]
-image:
-  -- feature: abstract-3.jpg
+date: 2015-09-15
+description: Just an init post of a geospatial typed lambda blog. # Add post description (optional)
+img: # Add image post (optional)
+fig-caption: # Add figcaption (optional)
+tags: [init post]
 ---
 
-Just a first post in a reincornated blog. Next post will contain information to get and render public SAR data.
+Just a first post in a reincornated blog. The next post will contain information how to get and render a public SAR data.

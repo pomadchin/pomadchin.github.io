@@ -1,3 +1,1 @@
-# Personal blog
-
-Just personal blog files.
+# Grigory's Typed Blog sources

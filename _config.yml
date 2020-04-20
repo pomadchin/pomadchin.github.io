@@ -1,71 +1,44 @@
-title:            Greg's Typed Blog
-description:      Boring dev notes.
-disqus_shortname: typedblog
-reading_time:     true
-words_per_minute: 200
-excerpt_separator: <!--more-->
-# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
-# When testing locally leave blank or use http://localhost:4000
-url: http://pomadchin.com
+title: Grigory's Typed Blog
+description: > # this means to ignore newlines until "baseurl:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+permalink: ':title/'
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: #if your site has a twitter account, enter it here
+about-links: > 
+  <ul class="extra-links">
+    <li><a href="http://path-to-recschemes.pomadchin.com/" target="_blank">Path to Rec. Schemes slides</a></li>
+    <li><a href="https://www.slideshare.net/GrigoryPomadchin/" target="_blank">SlideShare</a>
+    <li><a href="http://pomadchin.com/presentations/" target="_blank">Presentations / slides / articles</a>
+    <li><a href="https://www.semanticscholar.org/paper/A-Type-theoretic-Approach-to-Cloud-Data-Integration-Shapkin-Pomadchin/9d5dbfe5372e1303f4c83afd6fb44a868db3171c" target="_blank">A Type-theoretic Approach to Cloud Data Integration</a></li>
+  </ul>
 
-# Owner/author information
-owner:
-  name:           Gregory Pomadchin
-  avatar:         a1.jpg
-  bio:            "Lambda dev"
-  email:          daunnc@gmail.com
-  # Social networking links used in footer. Update and remove as you like.
-  twitter: daunnc       
-  facebook: gr.pomadchin      
-  github: pomadchin        
-  stackexchange: http://stackexchange.com/users/1099685/daunnc 
-  linkedin: grpomadchin      
-  instagram: daunnc     
-  flickr:         
-  tumblr:         
-  # For Google Authorship https://plus.google.com/authorship
-  # google plus id, include the '+', eg +mmistakes
-  google_plus:    +GrigoryPomadchin
+# Author Settings
+author: Grigory Pomadchin # add your name
+author-img: grigory.png # add your photo
+about-author: lambda style open source software developer on the @geotrellis team <hr /> @ScalalazPodcast host since the end of 2016
+social-twitter: daunnc
+social-facebook: gr.pomadchin
+social-github: pomadchin
+social-linkedin: grpomadchin
+social-email: gr.pomadchin@gmail.com
 
-# Background image to be tiled on all pages
-background: 
+# Disqus
+discus-identifier: typedblog # add your discus identifier
 
-# Analytics and webmaster tools stuff goes here
-google_analytics:   
-google_verify:      
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+# Tracker
+analytics: # Google Analytics
 
-# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    Europe/Moscow
-future:      true
-highlighter: pygments
-markdown:    kramdown
-gems:
+# Build Settings
+markdown: kramdown
+plugins:
   - jekyll-sitemap
-sass:
-  sass_dir: _sass
-  style: compressed
+  - jekyll-paginate
+  - jemoji
 
-# https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+paginate: 8
+paginate_path: "/page/:num"
 
-# Amount of post to show on home page
-paginate: 5
-
-kramdown:
-  auto_ids: true
-  footnote_nr: 1
-  entity_output: as_char
-  toc_levels: 1..6
-  use_coderay: true
-
-  coderay:
-    coderay_line_numbers: nil
-    coderay_line_numbers_start: 1
-    coderay_tab_width: 4
-    coderay_bold_every: 10
-    coderay_css: class
-
-include: [".htaccess"]
-exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
