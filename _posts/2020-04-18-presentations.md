@@ -12,7 +12,7 @@ Below you can find a list of the given talks, video recordings (if available) an
 
 ### Talks
 
-* [Path to Recursion Schemes slides](http://path-to-recschemes.pomadchin.com/)
+* [Path to Recursion Schemes slides](https://path-to-recschemes.pomadchin.com/)
   * Code to support presentation: [https://github.com/pomadchin/path-to-recschemes](https://github.com/pomadchin/path-to-recschemes)
 * [Distributed georeferenced raster processing on Spark with GeoTrellis](https://www.slideshare.net/GrigoryPomadchin/distributed-georeferenced-raster-processing-on-spark-with-geotrellis-82223083)
 * [GIS on (in) Scala](https://www.slideshare.net/GrigoryPomadchin/geotrellis-gis-on-scala-75459066)
